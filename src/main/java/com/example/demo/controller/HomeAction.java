@@ -29,5 +29,18 @@ public class HomeAction extends ActionSupport {
 		
 		return SUCCESS;
 	}
+	
+	public String userDetails() {
+		List<UserDetails> users = userService.getUsers();
+		
+		for(UserDetails user : users) {
+			System.out.println(user.getEmail() + " " + user.getName());
+		}
+		
+		ActionContext ctx = ActionContext.getContext();
+        ctx.put("users", users);
+		
+		return SUCCESS;
+	}
 
 }

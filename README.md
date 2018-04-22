@@ -52,4 +52,6 @@ Step 1: war
 Step 2:    
      http://localhost:8080/struts2-spring4-hibernate5/index    
      http://localhost:8080/struts2-spring4-hibernate5/home    
-     http://localhost:8080/struts2-spring4-hibernate5/userList          
+     [userList - struts2_tags](http://localhost:8080/struts2-spring4-hibernate5/userList)    
+     [userDetails - JSTL](http://localhost:8080/struts2-spring4-hibernate5/userDetails)    
+             

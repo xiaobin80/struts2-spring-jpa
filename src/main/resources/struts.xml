@@ -17,6 +17,9 @@
         <action name="userList" class="com.example.demo.controller.HomeAction" method="userList">
             <result name="success">views/userList.jsp</result>
         </action>
+        <action name="userDetails" class="com.example.demo.controller.HomeAction" method="userDetails">
+            <result name="success">views/userDetails.jsp</result>
+        </action>
     </package>
 
 </struts>
