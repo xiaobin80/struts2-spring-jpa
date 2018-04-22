@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+        	<!-- %d %-5p [%t] %C{2} (%F:%L) - %m%n -->
+            <PatternLayout pattern="%d %p [%c] - %m%n"/>
+        </Console>
+        <RollingFile name="ROLLING" fileName="demoStruts2.log" filePattern="demoStruts2.%i.log">
+            <PatternLayout pattern="%d %p [%c] - %m%n"/>
+            <Policies>
+            	<OnStartupTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="512 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="3"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.opensymphony.xwork2" level="INFO"/>
+        <Logger name="org.apache.struts2" level="INFO"/>
+        <Root level="warn">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>
