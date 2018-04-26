@@ -20,6 +20,19 @@
         <action name="userDetails" class="com.example.demo.controller.HomeAction" method="userDetails">
             <result name="success">views/userDetails.jsp</result>
         </action>
+        
+        <action name="userSingle" class="com.example.demo.controller.HomeAction" method="userSingle">
+            <result name="success">views/userSingle.jsp</result>
+        </action>
+        <action name="userDel" class="com.example.demo.controller.HomeAction" method="delUserById">
+            <result name="success">views/userList.jsp</result>
+        </action>
+        <action name="userInsert" class="com.example.demo.controller.HomeAction" method="insertUser">
+            <result name="success">views/userList.jsp</result>
+        </action>
+        <action name="userUpdate" class="com.example.demo.controller.HomeAction" method="updateUser">
+            <result name="success">views/userList.jsp</result>
+        </action>
     </package>
 
 </struts>

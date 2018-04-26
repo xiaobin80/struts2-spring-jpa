@@ -23,5 +23,28 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		// TODO Auto-generated method stub
 		return userDao.getUserDetails();
 	}
+	
+	@Override
+	public UserDetails findUserById(String userId) {
+		// TODO Auto-generated method stub
+		return userDao.findUserById(userId);
+	}
 
+	@Override
+	public int delUserById(int userId) {
+		// TODO Auto-generated method stub
+		return userDao.delUserById(userId);
+	}
+	
+	@Override
+	public int insertUser(UserDetails user) {
+		// TODO Auto-generated method stub
+		return userDao.insertUser(user);
+	}
+	
+	@Override
+	public int updateUser(String userName, int userId) {
+		// TODO Auto-generated method stub
+		return userDao.updateUser(userName, userId);
+	}
 }

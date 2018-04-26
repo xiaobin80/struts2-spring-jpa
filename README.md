@@ -52,6 +52,10 @@ Step 1: war
 Step 2:    
      http://localhost:8080/struts2-spring4-hibernate5/index    
      http://localhost:8080/struts2-spring4-hibernate5/home    
+     http://localhost:8080/struts2-spring4-hibernate5/userSingle?userId={id}    
      [userList - struts2_tags](http://localhost:8080/struts2-spring4-hibernate5/userList)    
      [userDetails - JSTL](http://localhost:8080/struts2-spring4-hibernate5/userDetails)    
+     http://localhost:8080/struts2-spring4-hibernate5/userDel?userId={id}    
+     http://localhost:8080/struts2-spring4-hibernate5/userinsert    
+     http://localhost:8080/struts2-spring4-hibernate5/userUpdate?userName={value}&userId={id}    
              
