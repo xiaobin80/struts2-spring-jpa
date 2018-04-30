@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	
+	<!-- ========================= entity Manager Factory: test ========================= -->
+	<bean id="entityManagerFactory_test"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+    	<property name="persistenceUnitName" value="UP_test" />
+    	<property name="dataSource" ref="dataSource_test" />
+   	    <property name="jpaVendorAdapter">
+	      <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+	        <property name="showSql" value="true" />
+	        <property name="databasePlatform" 
+	            value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+	      </bean>
+	    </property>
+  	</bean>
+  
+	<bean id="dataSource_test" 
+    	class="com.atomikos.jdbc.AtomikosDataSourceBean"
+    	init-method="init" destroy-method="close">
+
+    	<property name="uniqueResourceName" value="DataSource_test" />
+        <property name="xaDataSourceClassName">
+            <value>${jdbc.xa.driverClassName}</value>
+        </property>
+        <property name="xaProperties">
+            <props>
+                <prop key="user">${jdbc.test.username}</prop>
+                <prop key="password">${jdbc.test.password}</prop>
+                <prop key="URL">${jdbc.test.url}</prop>
+                <prop key="pinGlobalTxToPhysicalConnection">true</prop>
+            </props>
+        </property>
+    	<property name="poolSize" value="3" />
+	</bean>
+	
+	<!-- ========================= entity Manager Factory: car ========================= -->
+	<bean id="entityManagerFactory_car"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+    	<property name="persistenceUnitName" value="UP_car" />
+    	<property name="dataSource" ref="dataSource_car" />
+    	<property name="jpaVendorAdapter">
+	      <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+	        <property name="showSql" value="true" />
+	        <property name="databasePlatform" 
+	            value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+	      </bean>
+    	</property>
+    </bean>
+
+	<bean id="dataSource_car" 
+    	class="com.atomikos.jdbc.AtomikosDataSourceBean"
+    	init-method="init" destroy-method="close">
+
+    	<property name="uniqueResourceName" value="DataSource_car" />
+        <property name="xaDataSourceClassName">
+            <value>${jdbc.xa.driverClassName}</value>
+        </property>
+        <property name="xaProperties">
+            <props>
+                <prop key="user">${jdbc.car.username}</prop>
+                <prop key="password">${jdbc.car.password}</prop>
+                <prop key="URL">${jdbc.car.url}</prop>
+                <prop key="pinGlobalTxToPhysicalConnection">true</prop>
+            </props>
+        </property>
+    	<property name="poolSize" value="3" />
+	</bean>
+	
+	<!-- ========================= Transaction Manager ========================= -->	
+	<bean id="transactionMgr"
+	   class="org.springframework.transaction.jta.JtaTransactionManager">
+	
+	   <property name="transactionManager" ref="atomikosTransactionMgr" />
+	
+	   <property name="userTransaction" ref="atomikosUserTransaction" />
+	
+	   <property name="allowCustomIsolationLevels" value="true" />
+	</bean>
+	
+	<bean id="atomikosTransactionMgr"
+    	class="com.atomikos.icatch.jta.UserTransactionManager"
+    	init-method="init" destroy-method="close">
+
+    	<property name="forceShutdown" value="false" />
+	</bean>
+
+	<bean id="atomikosUserTransaction" 
+    	class="com.atomikos.icatch.jta.J2eeUserTransaction">
+
+    	<property name="transactionTimeout" value="300" />
+    </bean>	
+	
+	<!-- ========================= DAO DEFINITIONS: IBATIS IMPLEMENTATIONS ========================= -->
+	<bean id="userDao" class="com.example.demo.dao.UserDetailsImpl"></bean>
+	
+</beans>

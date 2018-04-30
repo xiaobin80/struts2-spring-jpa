@@ -33,11 +33,14 @@
   		<artifactId>jstl</artifactId>
   		<version>1.2</version>
   	</dependency>
-  	<dependency>
-  		<groupId>org.apache.commons</groupId>
-  		<artifactId>commons-dbcp2</artifactId>
-  		<version>2.2.0</version>
-  	</dependency>
+  	
+	<!-- https://mvnrepository.com/artifact/com.atomikos/transactions-hibernate3 -->
+	<dependency>
+	    <groupId>com.atomikos</groupId>
+	    <artifactId>transactions-hibernate3</artifactId>
+	    <version>4.0.6</version>
+	</dependency>
+
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
 	<dependency>
 	    <groupId>org.hibernate</groupId>

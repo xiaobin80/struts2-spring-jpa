@@ -38,7 +38,7 @@ public class HomeAction extends ActionSupport {
 	
 	public String userList() {
 		List<UserDetails> users = userService.getUsers();
-		
+		System.out.println("struts-tags: userList.jsp");
 		for(UserDetails user : users) {
 			System.out.println(user.getEmail() + " " + user.getName());
 		}
@@ -52,6 +52,7 @@ public class HomeAction extends ActionSupport {
 	public String userDetails() {
 		List<UserDetails> users = userService.getUsers();
 		
+		System.out.println("JSTL: userList.jsp");
 		for(UserDetails user : users) {
 			System.out.println(user.getEmail() + " " + user.getName());
 		}

@@ -21,7 +21,7 @@ import com.example.demo.model.UserDetails;
 @Repository
 public class UserDetailsImpl implements UserDetailsDao {
 	private final Logger logger = LogManager.getLogger();
-	@PersistenceContext
+	@PersistenceContext(unitName = "UP_test")
 	private EntityManager entityManager;
 	
 	@SuppressWarnings("unchecked")
