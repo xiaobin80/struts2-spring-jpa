@@ -26,7 +26,7 @@ public class TrainOrderImpl implements TrainOrderDao {
 		// TODO Auto-generated method stub
 		String jpql = "SELECT train FROM TrainOrder as train" 
 				+ " Where yearLevel2 = \'" + year + "\' AND monthLevel3 = \'" + month 
-				+ "\' AND trainNumber = \'" + trainNumber + "\' ORDER BY train.sn ASC";
+				+ "\' AND trainNumber = \'" + trainNumber + "\' ORDER BY train.seriaryNumber ASC";
 		
 		List<TrainOrder> result = entityManager.createQuery(jpql).getResultList();
 		
