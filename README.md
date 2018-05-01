@@ -57,5 +57,6 @@ Step 2:
      [userDetails - JSTL](http://localhost:8080/struts2-spring4-hibernate5/userDetails)    
      http://localhost:8080/struts2-spring4-hibernate5/userDel?userId={id}    
      http://localhost:8080/struts2-spring4-hibernate5/userinsert    
-     http://localhost:8080/struts2-spring4-hibernate5/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring4-hibernate5/userUpdate?userName={value}&userId={id}
+     http://localhost:8080/struts2-spring4-hibernate5/trainList?month={number}&trainNum={number}    
              
