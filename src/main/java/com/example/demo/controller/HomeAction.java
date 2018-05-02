@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.demo.model.TrainOrder;
@@ -18,10 +20,12 @@ public class HomeAction extends ActionSupport {
 	@Autowired
 	private TrainOrderService trainOrderService;
 	
+	private final Logger logger = LogManager.getLogger(this.getClass());
+	
 	private String userId;
 	private String userName;
-	private String trainNum;
-	private String month;
+	private String trainNum = "58";
+	private String month = "1";
 	
 	public String getMonth() {
 		return month;
@@ -63,7 +67,7 @@ public class HomeAction extends ActionSupport {
 		List<UserDetails> users = userService.getUsers();
 		System.out.println("struts-tags: userList.jsp");
 		for(UserDetails user : users) {
-			System.out.println(user.getEmail() + " " + user.getName());
+			logger.info(user.getEmail() + " " + user.getName());
 		}
 		
 		ActionContext ctx = ActionContext.getContext();
@@ -79,7 +83,7 @@ public class HomeAction extends ActionSupport {
 		
 		System.out.println("JSTL: trainOrder.jsp");
 		for(TrainOrder train : trains) {
-			System.out.println(train.getCarNumber());
+			logger.info(train.getCarNumber());
 		}
 		
 		ActionContext ctx = ActionContext.getContext();
@@ -90,7 +94,7 @@ public class HomeAction extends ActionSupport {
 	}
 	
 	public String userSingle() {
-		System.out.println(userId);
+		logger.info(userId);
 		
 		UserDetails user = userService.findUserById(this.userId);
 		ActionContext ctx = ActionContext.getContext();
@@ -120,7 +124,7 @@ public class HomeAction extends ActionSupport {
 	}
 	
 	public String updateUser() {
-		System.out.println(userName + "-" + userId);
+		logger.info(userName + "-" + userId);
 		userService.updateUser(userName, Integer.valueOf(userId));
 		
 		userList();
