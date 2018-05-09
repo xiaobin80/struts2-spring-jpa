@@ -20,7 +20,7 @@ http://www.pudn.com/Download/item/id/3418580.html
 | | | |____META-INF    
 | | | | |____persistence.xml    
 | | | |____applicationContext.xml    
-| | | |____dataAccessContext-jpa.xml    
+| | | |____dataAccessContext-jta.xml    
 | | | |____jdbc.properties    
 | | | |____log4j2.xml    
 | | | |____struts.xml     
@@ -55,7 +55,7 @@ Step 2:
      http://localhost:8080/struts2-spring4-hibernate5/userSingle?userId={id}    
      [userList - struts2_tags](http://localhost:8080/struts2-spring4-hibernate5/userList)        
      http://localhost:8080/struts2-spring4-hibernate5/userDel?userId={id}    
-     http://localhost:8080/struts2-spring4-hibernate5/userinsert    
+     http://localhost:8080/struts2-spring4-hibernate5/userInsert    
      http://localhost:8080/struts2-spring4-hibernate5/userUpdate?userName={value}&userId={id}    
      http://localhost:8080/struts2-spring4-hibernate5/trainList?month={number}&trainNum={number}    
              
