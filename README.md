@@ -3,7 +3,7 @@ Struts2 Spring4 Hibernate5
 
 Projects based on springBootJpa.
     
-http://www.pudn.com/Download/item/id/3418580.html
+[PUDN](http://www.pudn.com/Download/item/id/3424564.html)
 
 
 	/**
