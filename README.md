@@ -1,4 +1,4 @@
-Struts2 Spring4 JPA
+Struts2 Spring JPA
 ===============
 
 Projects based on springBootJpa.
@@ -50,12 +50,12 @@ Step 1: war
     
 
 Step 2:    
-     http://localhost:8080/struts2-spring4-jpa/index    
-     http://localhost:8080/struts2-spring4-jpa/home    
-     http://localhost:8080/struts2-spring4-jpa/userSingle?userId={id}    
-     [userList - struts2_tags](http://localhost:8080/struts2-spring4-jpa/userList)        
-     http://localhost:8080/struts2-spring4-jpa/userDel?userId={id}    
-     http://localhost:8080/struts2-spring4-jpa/userInsert    
-     http://localhost:8080/struts2-spring4-jpa/userUpdate?userName={value}&userId={id}    
-     http://localhost:8080/struts2-spring4-jpa/trainList?month={number}&trainNum={number}    
+     http://localhost:8080/struts2-spring-jpa/index    
+     http://localhost:8080/struts2-spring-jpa/home    
+     http://localhost:8080/struts2-spring-jpa/userSingle?userId={id}    
+     [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa/userList)    
+     http://localhost:8080/struts2-spring-jpa/userDel?userId={id}    
+     http://localhost:8080/struts2-spring-jpa/userInsert    
+     http://localhost:8080/struts2-spring-jpa/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring-jpa/trainList?month={number}&trainNum={number}    
              

@@ -19,6 +19,11 @@
   		<version>${spring.version}</version>
   	</dependency>
   	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  	<dependency>
   		<groupId>org.apache.struts</groupId>
   		<artifactId>struts2-spring-plugin</artifactId>
   		<version>${struts2.version}</version>
