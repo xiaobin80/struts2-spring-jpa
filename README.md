@@ -1,9 +1,9 @@
-Struts2 Spring4 Hibernate5
+Struts2 Spring4 JPA
 ===============
 
 Projects based on springBootJpa.
     
-[PUDN](http://www.pudn.com/Download/item/id/3465040.html)
+[demo jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-mysql)
 
 
 	/**
@@ -50,12 +50,12 @@ Step 1: war
     
 
 Step 2:    
-     http://localhost:8080/struts2-spring4-hibernate5/index    
-     http://localhost:8080/struts2-spring4-hibernate5/home    
-     http://localhost:8080/struts2-spring4-hibernate5/userSingle?userId={id}    
-     [userList - struts2_tags](http://localhost:8080/struts2-spring4-hibernate5/userList)        
-     http://localhost:8080/struts2-spring4-hibernate5/userDel?userId={id}    
-     http://localhost:8080/struts2-spring4-hibernate5/userInsert    
-     http://localhost:8080/struts2-spring4-hibernate5/userUpdate?userName={value}&userId={id}    
-     http://localhost:8080/struts2-spring4-hibernate5/trainList?month={number}&trainNum={number}    
+     http://localhost:8080/struts2-spring4-jpa/index    
+     http://localhost:8080/struts2-spring4-jpa/home    
+     http://localhost:8080/struts2-spring4-jpa/userSingle?userId={id}    
+     [userList - struts2_tags](http://localhost:8080/struts2-spring4-jpa/userList)        
+     http://localhost:8080/struts2-spring4-jpa/userDel?userId={id}    
+     http://localhost:8080/struts2-spring4-jpa/userInsert    
+     http://localhost:8080/struts2-spring4-jpa/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring4-jpa/trainList?month={number}&trainNum={number}    
              
