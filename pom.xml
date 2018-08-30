@@ -6,10 +6,10 @@
   <packaging>war</packaging>
   <properties>
   	<webVersion>2.5</webVersion>
-  	<spring.version>5.0.6.RELEASE</spring.version>
-  	<struts2.version>2.5.16</struts2.version>
-  	<hibernate.version>5.3.1.Final</hibernate.version>
-  	<log4j2.version>2.11.0</log4j2.version>
+  	<spring.version>5.0.8.RELEASE</spring.version>
+  	<struts2.version>2.5.17</struts2.version>
+  	<hibernate.version>5.3.5.Final</hibernate.version>
+  	<log4j2.version>2.11.1</log4j2.version>
   </properties>
 
   <dependencies>
