@@ -16,6 +16,10 @@
 	<label>Month1:17~160</label>
 	<label>Month2:163~501</label>
 	<label>Month3:502~829</label>
+	</br>
+	<label>For example:</label>
+	</br>
+	<label>http://localhost:8080/.../trainList?month=3&trainNum=808</label>
 	</div>
 	</hr>
 <div style="text-align:center;">	
