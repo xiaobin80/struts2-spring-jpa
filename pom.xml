@@ -8,10 +8,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   	<webVersion>2.5</webVersion>
-  	<spring.version>4.3.20.RELEASE</spring.version>
-  	<struts2.version>2.5.18</struts2.version>
-  	<hibernate.version>5.3.6.Final</hibernate.version>
-  	<log4j2.version>2.11.1</log4j2.version>
+  	<spring.version>4.3.22.RELEASE</spring.version>
+  	<struts2.version>2.5.20</struts2.version>
+  	<hibernate.version>5.4.1.Final</hibernate.version>
+  	<log4j2.version>2.11.2</log4j2.version>
   </properties>
 
   <dependencies>
@@ -58,17 +58,17 @@
 	<dependency>
         <groupId>com.google.code.simple-spring-memcached</groupId>
         <artifactId>spymemcached-provider</artifactId>
-        <version>4.0.0</version>
+        <version>4.1.2</version>
     </dependency>
     <dependency>
   		<groupId>com.google.code.simple-spring-memcached</groupId>
   		<artifactId>xmemcached-provider</artifactId>
-  		<version>4.0.0</version>
+  		<version>4.1.2</version>
 	</dependency>
 	<dependency>
   		<groupId>mysql</groupId>
   		<artifactId>mysql-connector-java</artifactId>
-  		<version>5.1.46</version>
+  		<version>5.1.47</version>
   	</dependency>
   	<!-- https://logging.apache.org/log4j/2.x/maven-artifacts.html -->
   	<dependency>
