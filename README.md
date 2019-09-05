@@ -46,16 +46,16 @@ Prepare:
 Step 1: war       
     1) mvn clean    
     2) mvn compile    
-    3) mvn package    
+    3) mvn package -DskipTests   
     
 
 Step 2:    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/index    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/home    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/userSingle?userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/index    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/home    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userSingle?userId={id}    
      [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa/userList)    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/userDel?userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/userInsert    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.2-SNAPSHOT/trainList?month={number}&trainNum={number}    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userDel?userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userInsert    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/trainList?month={number}&trainNum={number}    
              
