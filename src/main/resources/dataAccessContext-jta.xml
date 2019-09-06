@@ -34,6 +34,7 @@
             </props>
         </property>
     	<property name="poolSize" value="3" />
+		<property name="localTransactionMode" value="true" />
 	</bean>
 	
 	<!-- ========================= entity Manager Factory: car ========================= -->
@@ -67,6 +68,7 @@
             </props>
         </property>
     	<property name="poolSize" value="3" />
+		<property name="localTransactionMode" value="true" />
 	</bean>
 	
 	<!-- ========================= Transaction Manager ========================= -->	
