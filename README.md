@@ -22,6 +22,7 @@ Projects based on springBootJpa.
 | | | |____applicationContext.xml    
 | | | |____dataAccessContext-jta.xml    
 | | | |____jdbc.properties    
+| | | |____jta.properties    
 | | | |____log4j2.xml    
 | | | |____struts.xml     
 | | |        
@@ -30,32 +31,22 @@ Projects based on springBootJpa.
 | | | |____WEB-INF        
 | | | | |____web.xml        
 | | | |____index.html        
-|____pom.xml        
-        
-
-Prepare:    
-    1. Environment
-    Set Maven(M2_home) in System variables.    
-    1) Create an M2_HOME System Variable.    
-    2) Add%M2_HOME%\bin; to your PATH variable.    
+|____pom.xml           
     
-    2. Import Project    
-    1) Open ME    
-    2) Import->Maven->Existing Maven Projects    
 
-Step 1: war       
+Step 1: war    
     1) mvn clean    
     2) mvn compile    
-    3) mvn package -DskipTests   
+    3) mvn package -DskipTests    
     
 
 Step 2:    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/index    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/home    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userSingle?userId={id}    
-     [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa/userList)    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userDel?userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userInsert    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.3-SNAPSHOT/trainList?month={number}&trainNum={number}    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/index    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/home    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userSingle?userId={id}    
+     [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userList)    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userDel?userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userInsert    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/trainList?month={number}&trainNum={number}    
              
