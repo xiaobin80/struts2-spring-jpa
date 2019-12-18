@@ -41,12 +41,12 @@ Step 1: war
     
 
 Step 2:    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/index    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/home    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userSingle?userId={id}    
-     [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userList)    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userDel?userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userInsert    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-     http://localhost:8080/struts2-spring-jpa-0.0.5-SNAPSHOT/trainList?month={number}&trainNum={number}    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/index    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/home    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/userSingle?userId={id}    
+     [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/userList)    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/userDel?userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/userInsert    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+     http://localhost:8080/struts2-spring-jpa-0.0.6-SNAPSHOT/trainList?month={number}&trainNum={number}    
              
