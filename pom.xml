@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>struts2-spring-jpa</artifactId>
-  <version>0.0.6-SNAPSHOT</version>
+  <version>0.0.7-SNAPSHOT</version>
   <packaging>war</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   	<webVersion>2.5</webVersion>
-  	<spring.version>4.3.25.RELEASE</spring.version>
+  	<spring.version>4.3.26.RELEASE</spring.version>
   	<struts2.version>2.5.22</struts2.version>
   	<hibernate.version>5.4.10.Final</hibernate.version>
   	<log4j2.version>2.13.0</log4j2.version>
@@ -30,11 +30,12 @@
   		<artifactId>struts2-spring-plugin</artifactId>
   		<version>${struts2.version}</version>
   	</dependency>
-  	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>servlet-api</artifactId>
-  		<version>2.5</version>
-  	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.1.0</version>
+	</dependency>
   	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>jstl</artifactId>
