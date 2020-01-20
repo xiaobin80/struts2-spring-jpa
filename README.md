@@ -1,7 +1,7 @@
 Struts2 Spring JPA
 ===============
 
-Projects based on [demo jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-mysql). 
+Projects based on [demo jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-mysql).    
     with JTA(Atomikos-Hibernat4) + JPA    
 .        
 |____src        
