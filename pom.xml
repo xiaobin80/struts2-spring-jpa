@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>struts2-spring-jpa</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.8-SNAPSHOT</version>
   <packaging>war</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,12 +49,11 @@
 	    <version>5.0.6</version>
 	</dependency>
 
-
-	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 	<dependency>
-	    <groupId>org.hibernate</groupId>
-	    <artifactId>hibernate-entitymanager</artifactId>
-	    <version>${hibernate.version}</version>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>${hibernate.version}</version>
 	</dependency>
 	<dependency>
         <groupId>com.google.code.simple-spring-memcached</groupId>
