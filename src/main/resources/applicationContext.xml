@@ -29,7 +29,7 @@
 	    </property>
 	    <property name="addressProvider">
 	      <bean class="com.google.code.ssm.config.DefaultAddressProvider">
-	        <property name="address" value="127.0.0.1:11211" />
+	        <property name="address" value="192.168.2.102:11211" />
 	      </bean>
 	    </property>
 	    <property name="configuration">
