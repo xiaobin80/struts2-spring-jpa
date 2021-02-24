@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>struts2-spring-jpa</artifactId>
-  <version>0.0.9-SNAPSHOT</version>
+  <version>0.0.10-SNAPSHOT</version>
   <packaging>war</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   	<webVersion>2.5</webVersion>
-  	<spring.version>4.3.26.RELEASE</spring.version>
-  	<struts2.version>2.5.25</struts2.version>
-  	<hibernate.version>5.4.21.Final</hibernate.version>
-  	<log4j2.version>2.13.3</log4j2.version>
+  	<spring.version>4.3.29.RELEASE</spring.version>
+  	<struts2.version>2.5.26</struts2.version>
+  	<hibernate.version>5.4.28.Final</hibernate.version>
+  	<log4j2.version>2.14.0</log4j2.version>
   </properties>
 
   <dependencies>
