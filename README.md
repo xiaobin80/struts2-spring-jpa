@@ -33,14 +33,14 @@ Step 1: war
     
 
 Step 2:    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/index    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/home    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/userSingle?userId={id}    
-    [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/userList)    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/userDel?userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/userInsert    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.11-SNAPSHOT/trainList?month={number}&trainNum={number}    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/index    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/home    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/userSingle?userId={id}    
+    [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/userList)    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/userDel?userId={id}    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/userInsert    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+    http://localhost:8080/struts2-spring-jpa-0.0.12-SNAPSHOT/trainList?month={number}&trainNum={number}    
           
 # About Memcached
-- [安装memcached](https://xiaobin80.gitee.io/csdn/post/ops_memcached_ubuntu/)
+- [安装memcached](https://tdtc-hrb.github.io/csdn/post/ops_memcached_ubuntu/)
