@@ -16,7 +16,8 @@ public class UserDetails implements Serializable {
 	private static final long serialVersionUID = 1593950786773788099L;
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	//@GeneratedValue(strategy=GenerationType.AUTO) // Hibernate 5.1
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name = "id")
 	private int userId;
 	
