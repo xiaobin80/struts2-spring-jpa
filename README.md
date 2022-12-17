@@ -43,14 +43,14 @@ mvn package -DskipTests
 
 
 Step 2:    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/index    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/home    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/userSingle?userId={id}    
-    [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/userList)    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/userDel?userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/userInsert    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.15-SNAPSHOT/trainList?month={number}&trainNum={number}    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/index    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/home    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userSingle?userId={id}    
+    [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userList)    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userDel?userId={id}    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userInsert    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/trainList?month={number}&trainNum={number}    
           
 # About Memcached
 - [安装memcached](https://tdtc-hrb.github.io/csdn/post/ops_memcached_ubuntu/)
