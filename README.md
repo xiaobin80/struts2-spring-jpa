@@ -28,7 +28,8 @@ Projects based on [demo jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-
 
 
 
-Step 1: war
+## Step 1
+war package
 ```
 mvn clean
 ```
@@ -42,15 +43,16 @@ mvn package -DskipTests
 ```
 
 
-Step 2:    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/index    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/home    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userSingle?userId={id}    
-    [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userList)    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userDel?userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userInsert    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-    http://localhost:8080/struts2-spring-jpa-0.0.16-SNAPSHOT/trainList?month={number}&trainNum={number}    
-          
+## Step 2
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/index
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/home
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userSingle?userId={id}
+- [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userList)
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userDel?userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userInsert
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userUpdate?userName={value}&userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/trainList?month={number}&trainNum={number}
+
+
 # About Memcached
 - [安装memcached](https://tdtc-hrb.github.io/csdn/post/ops_memcached_ubuntu/)
