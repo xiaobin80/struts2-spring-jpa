@@ -27,6 +27,18 @@ Projects based on [demo jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-
 |____pom.xml           
 
 
+# Deployment
+```
+javax.servlet.* include v2.5, v3.1.0, v4.0.1
+```
+Struts2:
+- [v2.5.x](https://struts.apache.org/announce-2020.html)    
+The 2.5.x series of the Apache Struts framework has a minimum requirement of the following specification versions:    
+Servlet API 2.4, JSP API 2.0, and Java 7.
+- [v6.x](https://struts.apache.org/announce-2022.html)    
+The 6.x series of the Apache Struts framework has a minimum requirement of the following specification versions:    
+Servlet API 3.1, JSP API 2.1, and Java 8.
+
 
 ## Step 1
 war package
