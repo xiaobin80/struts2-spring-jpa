@@ -35,9 +35,6 @@ Struts2:
 - [v2.5.x](https://struts.apache.org/announce-2020.html)    
 The 2.5.x series of the Apache Struts framework has a minimum requirement of the following specification versions:    
 Servlet API 2.4, JSP API 2.0, and Java 7.
-- [v6.x](https://struts.apache.org/announce-2022.html)    
-The 6.x series of the Apache Struts framework has a minimum requirement of the following specification versions:    
-Servlet API 3.1, JSP API 2.1, and Java 8.
 
 
 ## Step 1
@@ -56,14 +53,14 @@ mvn package -DskipTests
 
 
 ## Step 2
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/index
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/home
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userSingle?userId={id}
-- [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userList)
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userDel?userId={id}
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userInsert
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/userUpdate?userName={value}&userId={id}
-- http://localhost:8080/struts2-spring-jpa-0.0.17-SNAPSHOT/trainList?month={number}&trainNum={number}
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/index
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/home
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/userSingle?userId={id}
+- [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.0.18-M1/userList)
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/userDel?userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/userInsert
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/userUpdate?userName={value}&userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.0.18-M1/trainList?month={number}&trainNum={number}
 
 
 # About Memcached
