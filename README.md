@@ -52,14 +52,14 @@ mvn package -DskipTests
 
 
 ## Step 2
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/index
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/home
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/userSingle?userId={id}
-- [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/userList)
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/userDel?userId={id}
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/userInsert
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/userUpdate?userName={value}&userId={id}
-- http://localhost:8080/struts2-spring-jpa-0.1.1-SNAPSHOT/trainList?month={number}&trainNum={number}
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/index
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/home
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/userSingle?userId={id}
+- [userList - struts2_tags](http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/userList)
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/userDel?userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/userInsert
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/userUpdate?userName={value}&userId={id}
+- http://localhost:8080/struts2-spring-jpa-0.1.2-SNAPSHOT/trainList?month={number}&trainNum={number}
 
 
 # About Memcached
